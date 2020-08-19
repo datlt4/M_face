@@ -1,0 +1,19 @@
+<parameters>
+	<app_title>M Face Recognition</app_title>
+	<model_paths>
+		<face_detection_model_paths>models/retinaface_mobinet/mobilenet_0_25_Final.pth</face_detection_model_paths>
+		<face_recognition_model_paths>models/insightface-r100-ii/model</face_recognition_model_paths>
+	</model_paths>
+	<database>m_database</database>
+	<server>
+		<HOST>192.168.1.20</HOST>
+		<PORT>8022</PORT>
+	</server>
+	<arguments>
+		<RESET_FLAG_FACE_DETECT>5</RESET_FLAG_FACE_DETECT>
+		<PADDING_FACE>0.1</PADDING_FACE>
+		<HEIGHT_FRAME>500</HEIGHT_FRAME>
+		<IOU_THRESHOLD>0.5</IOU_THRESHOLD>
+		<RECOGNIZE_THRESHOLD>1.0001</RECOGNIZE_THRESHOLD>
+	</arguments>
+</parameters>

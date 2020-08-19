@@ -1,0 +1,9 @@
+mxnet-cu100
+torch==1.2.0
+torchvision==0.4.0
+opencv==3.4.6
+opencv-contrib==3.4.6
+scikit-image
+imutils
+tqdm
+ipdb
